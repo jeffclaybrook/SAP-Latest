@@ -18,19 +18,19 @@ export default class extends AbstractView {
             </div>
             <div class="explore-featured">
                <div class="explore-featured--card">
-                  <img src="/static/images/image-29.webp" alt="Image">
+                  <img src="./images/image-29.webp" alt="Image">
                   <h5>Listen</h5>
                   <h1>#LoveTIDAL</h1>
                   <h4>Celebrate Valentine's Day 2022</h4>
                </div>
                <div class="explore-featured--card">
-                  <img src="/static/images/image-30.webp" alt="Image">
+                  <img src="./images/image-30.webp" alt="Image">
                   <h5>Celebrate</h5>
                   <h1>Interscope Records</h1>
                   <h4>Celebrate Interscope's legacy</h4>
                </div>
                <div class="explore-featured--card">
-                  <img src="/static/images/image-31.webp" alt="Image">
+                  <img src="./images/image-31.webp" alt="Image">
                   <h5>Read</h5>
                   <h1>Betty Davis: "Fire & Fierceness</h1>
                   <h4>By Cindy Blackman Santana</h4>
