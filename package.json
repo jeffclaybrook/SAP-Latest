@@ -1,0 +1,13 @@
+{
+  "name": "My SAP",
+  "description": "My SAP App",
+  "homepage": "https://jeffclaybrook.github.io/SAP-Latest/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffclaybrook/SAP-Latest/"
+  },
+  "author": "JeffClaybrook",
+  "license": "MIT",
+  "version": "0.1.0",
+  "main": "script.js"
+}

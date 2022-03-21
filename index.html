@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Music App Desktop</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap">
+   <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+   <nav class="nav">
+      <a href="/SAP-Latest/" class="logo" data-link><img src="static/icons/logo-alt.svg" alt="Image"></a>
+      <a href="/SAP-Latest/" data-link>Home</a>
+      <a href="/SAP-Latest/explore" data-link>Explore</a>
+      <a href="/SAP-Latest/radio" data-link>Radio</a>
+      <a href="/SAP-Latest/playlists" data-link>Playlists</a>
+      <a href="/SAP-Latest/albums" data-link>Albums</a>
+      <a href="/SAP-Latest/tracks" data-link>Tracks</a>
+      <a href="/SAP-Latest/videos" data-link>Videos</a>
+      <a href="/SAP-Latest/artists" data-link>Artists</a>
+   </nav>
+   <header>
+      <div class="wrapper">
+         <button class="icon-btn"><span class="chevron-left"></span></button>
+         <button class="icon-btn"><span class="chevron-right"></span></button>
+      </div>
+      <div class="wrapper">
+         <div class="search-bar">
+            <span class="search"></span>
+            <input type="text" placeholder="Search">
+         </div>
+         <button class="icon-btn"><span class="notification"></span></button>
+      </div>
+   </header>
+   <div id="app" class="app"></div>
+   <script type="module" src="static/js/script.js"></script>
+</body>
+</html>
